@@ -11,6 +11,15 @@ const SIZES = [
     'btn--large'
 ]
 
+// export function Button(props) {
+//     return(
+//         <div>
+//             <button>{props.label}</button>
+//         </div>
+//     )
+// }
+
+
 export const Button = ({
     children,
     type,

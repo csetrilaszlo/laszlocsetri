@@ -11,11 +11,12 @@
 }
 
 .btn:hover {
+    
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;
     color: #6568F4;
-    transition: 250ms;
+    transition: 250ms; 
 }
 
 .btn--primary {
@@ -34,15 +35,20 @@
 }
 
 .btn--medium {
-    padding: 8px 20px;
-    border-radius: 4px;
+    padding: 12px 30px;
+    border-radius: 10px;
     font-size: 18px;
-    color: #fff;
+    color: black;
+    border: none;
+    background-color: #f9ea65;
+    cursor: pointer;
+    
+    
 }
 
 .btn--large {
-    padding: 12px 26px;
+    padding: 12px 32px;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
 }
